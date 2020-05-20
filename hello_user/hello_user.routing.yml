@@ -1,0 +1,15 @@
+hello_user.form:
+  path: '/hello-form'
+  defaults:
+    _title: 'Display message'
+    _form: \Drupal\hello_user\Form\HelloUserForm
+  requirements:
+    _access: 'TRUE'
+
+hello_user.hello_user:
+  path: '/hello/{name}'
+  defaults:
+    _controller: \Drupal\hello_user\Controller\HelloUserController::helloUser
+  requirements:
+    _access: 'TRUE'
+    user: \d+
