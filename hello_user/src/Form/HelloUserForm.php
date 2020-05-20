@@ -37,7 +37,7 @@ class HelloUserForm extends FormBase {
 
         $form['actions']['submit'] = [
             '#type' => 'submit',
-            '#value' => $this->t('Como te llamas'),
+            '#value' => $this->t('Enviar'),
         ];
 
         return $form;

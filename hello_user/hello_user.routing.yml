@@ -1,7 +1,7 @@
 hello_user.form:
   path: '/hello-form'
   defaults:
-    _title: 'Display message'
+    _title: 'Como te llamas'
     _form: \Drupal\hello_user\Form\HelloUserForm
   requirements:
     _access: 'TRUE'
