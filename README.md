@@ -1,4 +1,5 @@
 # Hello-user
+[![GitHub]https://img.shields.io/github/license/tdatebashvili/hello-user](https://github.com/tdatebashvili/Hello-user/blob/master/LICENSE)
 ![Version](https://img.shields.io/badge/Version-1.0-green)
 ![Author](https://img.shields.io/badge/Autor-Teymuraz%20Datebashvili-blueviolet)
 
